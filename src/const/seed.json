@@ -1,0 +1,2372 @@
+[
+  {
+    "sales_associate": [
+      {
+        "id": "c0551fd2-3221-466f-bdb9-c9d1eef1a609",
+        "sales_target": 78515,
+        "sales_achieved": 24342,
+        "commission_rate": 99518,
+        "created_at": "2023-08-29T08:59:48.290Z",
+        "updated_at": "2023-08-29T21:14:05.389Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "00fe2b79-0188-45d2-8ae1-62105fc61b4b",
+        "sales_target": 24569,
+        "sales_achieved": 80210,
+        "commission_rate": 38755,
+        "created_at": "2023-08-29T18:23:30.071Z",
+        "updated_at": "2023-08-29T08:30:10.316Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8d25e8df-2952-4c83-a15f-021c4b511cb0",
+        "sales_target": 62263,
+        "sales_achieved": 74501,
+        "commission_rate": 6477,
+        "created_at": "2023-08-29T10:49:44.824Z",
+        "updated_at": "2023-08-29T10:44:12.014Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dde35e17-769a-4e3e-b2b0-24824fbe961d",
+        "sales_target": 40146,
+        "sales_achieved": 43883,
+        "commission_rate": 88440,
+        "created_at": "2023-08-29T09:30:24.433Z",
+        "updated_at": "2023-08-29T19:48:30.079Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "05e9316e-80a2-43fb-a31a-7e38b7075de7",
+        "sales_target": 31557,
+        "sales_achieved": 88724,
+        "commission_rate": 93761,
+        "created_at": "2023-08-29T04:48:17.267Z",
+        "updated_at": "2023-08-30T01:05:58.421Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "manager": [
+      {
+        "id": "9efa8a51-f14e-4761-adb9-4d5b9c459afc",
+        "department": "Sales",
+        "employees_managed": 60406,
+        "created_at": "2023-08-30T03:41:40.217Z",
+        "updated_at": "2023-08-29T09:35:14.872Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d6bb7d2b-76d3-48b0-b472-8522b1f10387",
+        "department": "Marketing",
+        "employees_managed": 47529,
+        "created_at": "2023-08-29T17:43:58.497Z",
+        "updated_at": "2023-08-29T09:46:46.949Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e02d55d0-621f-4069-8b78-086ca74441b9",
+        "department": "Finance",
+        "employees_managed": 65703,
+        "created_at": "2023-08-29T10:51:34.678Z",
+        "updated_at": "2023-08-29T16:43:29.183Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "034348df-91d8-4625-b9b0-e56333fa8aef",
+        "department": "Human Resources",
+        "employees_managed": 26174,
+        "created_at": "2023-08-30T01:17:51.196Z",
+        "updated_at": "2023-08-29T17:03:43.864Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5a9a2865-adb5-4db8-8072-0a8cf001c3c8",
+        "department": "Operations",
+        "employees_managed": 25153,
+        "created_at": "2023-08-30T00:08:41.421Z",
+        "updated_at": "2023-08-29T08:11:43.084Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "7118cfb4-b6ec-49f4-8539-6a991f6110cc",
+        "watch_name": "Classic Timepiece",
+        "watch_model": "A1",
+        "quantity": 39066,
+        "price": 12266,
+        "created_at": "2023-08-29T21:57:39.025Z",
+        "updated_at": "2023-08-29T10:19:07.456Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3de7e8e2-b933-45b9-a61c-fd22ae9d4842",
+        "watch_name": "Sporty Chronograph",
+        "watch_model": "B2",
+        "quantity": 66410,
+        "price": 7137,
+        "created_at": "2023-08-29T17:21:53.205Z",
+        "updated_at": "2023-08-29T19:48:48.431Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4c2ca487-7024-4d7f-ab97-bc237871d5ac",
+        "watch_name": "Elegant Dress Watch",
+        "watch_model": "C3",
+        "quantity": 44263,
+        "price": 4964,
+        "created_at": "2023-08-29T21:11:26.786Z",
+        "updated_at": "2023-08-29T18:02:02.743Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2dedb415-01b4-42ea-82fa-d87c76b80d68",
+        "watch_name": "Luxury Diamond Watch",
+        "watch_model": "D4",
+        "quantity": 22868,
+        "price": 56684,
+        "created_at": "2023-08-29T23:17:54.542Z",
+        "updated_at": "2023-08-29T21:09:11.245Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "06cdcbfc-34ff-4450-b765-5e9aa64c020b",
+        "watch_name": "Smart Fitness Tracker",
+        "watch_model": "E5",
+        "quantity": 5269,
+        "price": 82531,
+        "created_at": "2023-08-29T22:38:46.994Z",
+        "updated_at": "2023-08-29T10:42:02.547Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "guest": [
+      {
+        "id": "9a51bc59-c9ed-4f2a-905a-9518330e14ad",
+        "visit_date": "2023-08-29T23:24:21.200Z",
+        "visit_duration": 58150,
+        "interest_level": 23913,
+        "created_at": "2023-08-29T06:08:23.082Z",
+        "updated_at": "2023-08-29T10:52:40.339Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e462f34c-42a3-4ef1-ab84-238f6ffe5eb8",
+        "visit_date": "2023-08-29T08:34:14.693Z",
+        "visit_duration": 97754,
+        "interest_level": 88792,
+        "created_at": "2023-08-29T22:34:46.160Z",
+        "updated_at": "2023-08-29T22:39:23.825Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c1ba1a40-4a81-4b97-a2eb-d045f59367d6",
+        "visit_date": "2023-08-29T15:41:57.032Z",
+        "visit_duration": 21678,
+        "interest_level": 80412,
+        "created_at": "2023-08-29T14:10:59.063Z",
+        "updated_at": "2023-08-29T12:24:12.560Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2bde486a-c6c7-4f3a-82bb-67bf60dc1823",
+        "visit_date": "2023-08-29T10:49:07.624Z",
+        "visit_duration": 8120,
+        "interest_level": 28542,
+        "created_at": "2023-08-30T01:21:24.467Z",
+        "updated_at": "2023-08-29T18:56:29.152Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "81f858f1-6a65-4719-811c-bd657f8ab09e",
+        "visit_date": "2023-08-30T01:23:07.896Z",
+        "visit_duration": 35889,
+        "interest_level": 12527,
+        "created_at": "2023-08-29T19:41:25.295Z",
+        "updated_at": "2023-08-29T06:12:40.761Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b188b49a-b6e0-4e78-a3fc-4927d83ffa42",
+        "email": "Max.Green64@hotmail.com",
+        "firstName": "Otho",
+        "lastName": "Bayer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/118.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "08c63c1a-6cdf-410b-bb3b-6978d31933f9",
+        "email": "Lucy19@gmail.com",
+        "firstName": "Odessa",
+        "lastName": "Feest",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21272312",
+        "tenantId": null
+      },
+      {
+        "reference": "ddae5595-6593-44e4-aaa8-6ca6a179ad3b",
+        "email": "Juvenal38@yahoo.com",
+        "firstName": "Esta",
+        "lastName": "Vandervort",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1130.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "dd6a6b59-fade-466b-8ede-38c0b2dfeb38",
+        "email": "Jalen30@gmail.com",
+        "firstName": "Shakira",
+        "lastName": "Kuphal",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/486.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5c75275e-3190-4b8a-893a-5d28a1cdfe3e",
+        "email": "Georgiana_Brakus72@hotmail.com",
+        "firstName": "Wallace",
+        "lastName": "Toy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77093660",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "sales_associate": [
+      {
+        "id": "6a4302ad-fc7e-4971-85d6-2880e0e3933d",
+        "sales_target": 86787,
+        "sales_achieved": 21061,
+        "commission_rate": 96969,
+        "created_at": "2023-08-29T07:38:23.400Z",
+        "updated_at": "2023-08-29T06:00:54.028Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "001e23fe-5859-4b57-aa2a-48361ec3791c",
+        "sales_target": 94619,
+        "sales_achieved": 23416,
+        "commission_rate": 68464,
+        "created_at": "2023-08-30T01:59:13.753Z",
+        "updated_at": "2023-08-29T20:44:20.323Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "060b379d-ba36-4911-8391-031d182dc62e",
+        "sales_target": 46262,
+        "sales_achieved": 54317,
+        "commission_rate": 96288,
+        "created_at": "2023-08-29T14:15:37.629Z",
+        "updated_at": "2023-08-29T06:18:07.642Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e38c11d5-7ebf-45ef-8f72-f1ac1b4c480c",
+        "sales_target": 1323,
+        "sales_achieved": 58420,
+        "commission_rate": 81023,
+        "created_at": "2023-08-29T22:49:37.760Z",
+        "updated_at": "2023-08-29T06:45:28.588Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "01597346-2cc0-4e0b-9222-86b57e1b605c",
+        "sales_target": 53696,
+        "sales_achieved": 24542,
+        "commission_rate": 233,
+        "created_at": "2023-08-29T14:54:35.764Z",
+        "updated_at": "2023-08-29T18:48:10.792Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "manager": [
+      {
+        "id": "9d0b1895-21ae-4136-a32d-64255695cc83",
+        "department": "Sales",
+        "employees_managed": 29958,
+        "created_at": "2023-08-29T21:49:15.552Z",
+        "updated_at": "2023-08-29T19:22:55.299Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c4ea35e8-f77b-4a68-b956-b9fbd9ffcad6",
+        "department": "Marketing",
+        "employees_managed": 56933,
+        "created_at": "2023-08-29T07:58:27.181Z",
+        "updated_at": "2023-08-29T22:05:54.373Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9d947c5e-4071-42c4-8874-60aa0af93618",
+        "department": "Finance",
+        "employees_managed": 96681,
+        "created_at": "2023-08-29T21:33:51.114Z",
+        "updated_at": "2023-08-29T16:35:47.751Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "350bbd3a-260b-4126-bb61-694fe81e4f95",
+        "department": "Human Resources",
+        "employees_managed": 76487,
+        "created_at": "2023-08-29T05:54:37.827Z",
+        "updated_at": "2023-08-30T00:37:51.903Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2acccfc8-0ce7-4303-ab9b-1e5ca7cb70fe",
+        "department": "Operations",
+        "employees_managed": 13820,
+        "created_at": "2023-08-29T06:02:24.182Z",
+        "updated_at": "2023-08-29T22:27:13.477Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "2ed67662-533a-4f24-bc60-9e7e299f4243",
+        "watch_name": "Classic Timepiece",
+        "watch_model": "W1001",
+        "quantity": 70166,
+        "price": 93103,
+        "created_at": "2023-08-29T18:38:22.503Z",
+        "updated_at": "2023-08-29T15:30:51.406Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fabe4360-2803-4617-9934-c3ecf0d8f989",
+        "watch_name": "Sporty Chronograph",
+        "watch_model": "C2002",
+        "quantity": 93055,
+        "price": 13712,
+        "created_at": "2023-08-29T08:39:07.205Z",
+        "updated_at": "2023-08-29T16:17:11.128Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f8780066-9c77-42aa-88f1-7db5f9cc87b4",
+        "watch_name": "Elegant Dress Watch",
+        "watch_model": "E3003",
+        "quantity": 91147,
+        "price": 50721,
+        "created_at": "2023-08-30T01:20:41.539Z",
+        "updated_at": "2023-08-29T17:22:56.293Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a9af52b7-7d3a-4bf9-89c8-b015f873823d",
+        "watch_name": "Luxury Diamond Watch",
+        "watch_model": "L4004",
+        "quantity": 93307,
+        "price": 83218,
+        "created_at": "2023-08-29T10:08:16.764Z",
+        "updated_at": "2023-08-29T12:12:26.033Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0b5699f2-541c-4ab9-a733-42474ba3e63c",
+        "watch_name": "Smart Fitness Tracker",
+        "watch_model": "S5005",
+        "quantity": 53840,
+        "price": 50500,
+        "created_at": "2023-08-29T15:50:57.563Z",
+        "updated_at": "2023-08-29T12:56:08.507Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "guest": [
+      {
+        "id": "44db3f49-df1a-4c3e-9add-a141bc04d808",
+        "visit_date": "2023-08-29T06:15:03.938Z",
+        "visit_duration": 8186,
+        "interest_level": 39687,
+        "created_at": "2023-08-30T04:31:49.084Z",
+        "updated_at": "2023-08-29T17:00:36.900Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "43c6846b-0f24-45bb-bd5c-0361ba6e75ff",
+        "visit_date": "2023-08-29T12:18:24.490Z",
+        "visit_duration": 73221,
+        "interest_level": 32803,
+        "created_at": "2023-08-30T03:57:42.754Z",
+        "updated_at": "2023-08-29T23:02:44.383Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4b3dc1bf-67f5-4d85-8cb5-874877c38821",
+        "visit_date": "2023-08-29T04:48:56.332Z",
+        "visit_duration": 29233,
+        "interest_level": 96274,
+        "created_at": "2023-08-29T16:57:58.632Z",
+        "updated_at": "2023-08-29T14:54:10.189Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dded55e9-7cb5-4d98-935f-893e693f8ff8",
+        "visit_date": "2023-08-30T03:38:41.832Z",
+        "visit_duration": 6053,
+        "interest_level": 82680,
+        "created_at": "2023-08-29T20:14:33.731Z",
+        "updated_at": "2023-08-29T12:58:07.187Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8b3e4548-ca51-4279-a26d-ee0fd7ab1fd8",
+        "visit_date": "2023-08-29T05:30:24.396Z",
+        "visit_duration": 14464,
+        "interest_level": 36291,
+        "created_at": "2023-08-29T04:40:29.986Z",
+        "updated_at": "2023-08-29T11:06:25.725Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8eb46917-f799-4c00-9006-7d5f2177398b",
+        "email": "Kiera.Runolfsdottir-Weber@yahoo.com",
+        "firstName": "Alden",
+        "lastName": "Carroll",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30920400",
+        "tenantId": null
+      },
+      {
+        "reference": "1b403a6b-69ce-4d99-a815-c5b03f998163",
+        "email": "Irwin.Medhurst@gmail.com",
+        "firstName": "Elisa",
+        "lastName": "Botsford",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/271.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bddb0431-b38e-44b7-97fd-d4fe51ee3409",
+        "email": "Sierra_Fadel7@hotmail.com",
+        "firstName": "Germaine",
+        "lastName": "Zieme",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13744210",
+        "tenantId": null
+      },
+      {
+        "reference": "f0de1780-07e1-418d-9eb1-9ffdd2937a46",
+        "email": "Bridget.Herman@yahoo.com",
+        "firstName": "Merlin",
+        "lastName": "Rice",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3852516",
+        "tenantId": null
+      },
+      {
+        "reference": "8fd8690d-0319-4409-a140-ad697bafb720",
+        "email": "Darien80@yahoo.com",
+        "firstName": "Odell",
+        "lastName": "McKenzie",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46075014",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "sales_associate": [
+      {
+        "id": "3db1d110-1850-4e18-ab64-a1edda7f4627",
+        "sales_target": 71405,
+        "sales_achieved": 91510,
+        "commission_rate": 7731,
+        "created_at": "2023-08-29T09:45:59.620Z",
+        "updated_at": "2023-08-29T22:23:15.075Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b4724847-cdf3-4cb2-9acd-06da14996085",
+        "sales_target": 47546,
+        "sales_achieved": 8927,
+        "commission_rate": 41743,
+        "created_at": "2023-08-29T08:48:44.493Z",
+        "updated_at": "2023-08-30T00:48:27.482Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c2da0c4c-64a7-4802-ae3d-459a155e6f41",
+        "sales_target": 70871,
+        "sales_achieved": 78056,
+        "commission_rate": 33737,
+        "created_at": "2023-08-29T23:25:09.391Z",
+        "updated_at": "2023-08-30T03:05:41.447Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c9984725-bdfc-4c0b-8337-0f377efc93f9",
+        "sales_target": 69366,
+        "sales_achieved": 5459,
+        "commission_rate": 42333,
+        "created_at": "2023-08-29T22:58:24.220Z",
+        "updated_at": "2023-08-29T07:09:53.915Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c2209092-6cd5-43d6-b0e9-f9812890bffc",
+        "sales_target": 81685,
+        "sales_achieved": 51970,
+        "commission_rate": 28060,
+        "created_at": "2023-08-30T00:25:52.138Z",
+        "updated_at": "2023-08-29T13:58:42.773Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "manager": [
+      {
+        "id": "a81c17bf-3e36-4034-b5a8-3ce0579874be",
+        "department": "Sales",
+        "employees_managed": 8242,
+        "created_at": "2023-08-30T00:31:42.205Z",
+        "updated_at": "2023-08-29T21:10:16.939Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5e796d6c-d1b7-49d7-bc80-fb5f79dcd82d",
+        "department": "Marketing",
+        "employees_managed": 52460,
+        "created_at": "2023-08-29T21:53:18.187Z",
+        "updated_at": "2023-08-30T03:30:23.472Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ada73572-b361-427e-b2cf-8a66755d9ac7",
+        "department": "Finance",
+        "employees_managed": 86409,
+        "created_at": "2023-08-29T17:20:07.505Z",
+        "updated_at": "2023-08-29T10:34:36.138Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "571c9213-b8a8-43c4-be76-8bfc9134fe2c",
+        "department": "Human Resources",
+        "employees_managed": 85902,
+        "created_at": "2023-08-29T19:22:00.135Z",
+        "updated_at": "2023-08-29T13:50:58.949Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a55c76c8-5ae9-4b6b-ad5a-25bc14f43a39",
+        "department": "Operations",
+        "employees_managed": 47992,
+        "created_at": "2023-08-30T03:07:19.351Z",
+        "updated_at": "2023-08-29T05:43:13.972Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "5cbf491b-e660-499d-bc70-bd9df953207a",
+        "watch_name": "Classic Black",
+        "watch_model": "ABC123",
+        "quantity": 4591,
+        "price": 89337,
+        "created_at": "2023-08-29T17:19:35.871Z",
+        "updated_at": "2023-08-30T01:11:22.402Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9118b0bf-46a4-4524-8188-8d3ea511d48c",
+        "watch_name": "Sporty Blue",
+        "watch_model": "DEF456",
+        "quantity": 10262,
+        "price": 61488,
+        "created_at": "2023-08-29T18:10:40.215Z",
+        "updated_at": "2023-08-29T15:59:11.606Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f43da6b4-e339-4ee1-8541-dd6edf99c07b",
+        "watch_name": "Elegant Rose Gold",
+        "watch_model": "GHI789",
+        "quantity": 42188,
+        "price": 59303,
+        "created_at": "2023-08-29T21:13:44.843Z",
+        "updated_at": "2023-08-29T09:11:40.117Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f8c74a99-ba8e-4c63-8f0e-21d573eab1a0",
+        "watch_name": "Modern Silver",
+        "watch_model": "JKL012",
+        "quantity": 26573,
+        "price": 42138,
+        "created_at": "2023-08-29T07:03:02.334Z",
+        "updated_at": "2023-08-29T08:57:00.466Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "107495ae-d336-4836-af9e-e365be34e508",
+        "watch_name": "Luxury Diamond",
+        "watch_model": "MNO345",
+        "quantity": 10349,
+        "price": 47802,
+        "created_at": "2023-08-29T08:21:50.657Z",
+        "updated_at": "2023-08-29T22:51:46.746Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "guest": [
+      {
+        "id": "a0624f63-1d07-4275-8af6-b9f9b1503855",
+        "visit_date": "2023-08-29T09:59:09.577Z",
+        "visit_duration": 69565,
+        "interest_level": 28559,
+        "created_at": "2023-08-29T22:21:50.399Z",
+        "updated_at": "2023-08-29T19:11:21.417Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ed003c05-2be4-48c3-9c4b-07be2f8971df",
+        "visit_date": "2023-08-30T04:23:47.294Z",
+        "visit_duration": 52601,
+        "interest_level": 40516,
+        "created_at": "2023-08-29T13:47:48.907Z",
+        "updated_at": "2023-08-29T10:51:07.532Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ef304b35-ea69-4ab3-ae8e-4a1a3dbdaa9a",
+        "visit_date": "2023-08-29T23:15:53.597Z",
+        "visit_duration": 81046,
+        "interest_level": 45134,
+        "created_at": "2023-08-29T17:48:50.992Z",
+        "updated_at": "2023-08-29T21:08:30.627Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c2c49dca-1edf-438f-b8b7-18a06aa09dc3",
+        "visit_date": "2023-08-29T12:48:06.101Z",
+        "visit_duration": 491,
+        "interest_level": 94681,
+        "created_at": "2023-08-29T15:31:58.349Z",
+        "updated_at": "2023-08-29T19:06:46.797Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "40f15f86-385c-4f56-8cfd-aa581f3881e0",
+        "visit_date": "2023-08-29T20:18:27.884Z",
+        "visit_duration": 5369,
+        "interest_level": 67132,
+        "created_at": "2023-08-30T01:41:48.089Z",
+        "updated_at": "2023-08-29T19:49:56.598Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "95f78024-7e46-41cc-abf1-4e030a719377",
+        "email": "Carissa73@gmail.com",
+        "firstName": "Freda",
+        "lastName": "Altenwerth-White",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9816378",
+        "tenantId": null
+      },
+      {
+        "reference": "a8848edf-ff87-4c95-bf6c-9297f4523620",
+        "email": "Ricky.Rosenbaum@yahoo.com",
+        "firstName": "Alene",
+        "lastName": "Harber",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97339323",
+        "tenantId": null
+      },
+      {
+        "reference": "77a4fed3-4d88-46c4-b4fe-2af4dcdecf5d",
+        "email": "Naomie.Muller@hotmail.com",
+        "firstName": "Katelyn",
+        "lastName": "Upton",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88969436",
+        "tenantId": null
+      },
+      {
+        "reference": "255026d3-6b1d-4d41-afe7-eac20e1d0942",
+        "email": "Alanna52@yahoo.com",
+        "firstName": "Ignacio",
+        "lastName": "Fay",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78701119",
+        "tenantId": null
+      },
+      {
+        "reference": "8ff66acc-e36e-41c6-8c73-4e0c8772e0fd",
+        "email": "Joshuah.Heaney70@hotmail.com",
+        "firstName": "Kaylee",
+        "lastName": "Mayer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41416578",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "sales_associate": [
+      {
+        "id": "93a6181b-9817-448e-bae3-4750bbcc8c7e",
+        "sales_target": 62566,
+        "sales_achieved": 36050,
+        "commission_rate": 60115,
+        "created_at": "2023-08-29T12:17:24.159Z",
+        "updated_at": "2023-08-29T11:10:59.389Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "24dec5aa-be59-45de-b7ff-ddf15baa9ba0",
+        "sales_target": 19076,
+        "sales_achieved": 93670,
+        "commission_rate": 36609,
+        "created_at": "2023-08-29T10:05:51.287Z",
+        "updated_at": "2023-08-30T04:22:08.650Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "65554f1a-144c-4335-8cc0-9ad166400dfe",
+        "sales_target": 4763,
+        "sales_achieved": 29309,
+        "commission_rate": 17444,
+        "created_at": "2023-08-29T18:21:28.594Z",
+        "updated_at": "2023-08-29T21:59:46.846Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fc1b64b0-c177-48ab-9cdb-c40660e7f9af",
+        "sales_target": 38088,
+        "sales_achieved": 52291,
+        "commission_rate": 53604,
+        "created_at": "2023-08-29T17:57:04.402Z",
+        "updated_at": "2023-08-29T19:05:48.999Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d3133ee-4ede-444b-9f09-7e1a5350a535",
+        "sales_target": 22611,
+        "sales_achieved": 20214,
+        "commission_rate": 52465,
+        "created_at": "2023-08-29T15:08:10.371Z",
+        "updated_at": "2023-08-29T13:59:42.324Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "manager": [
+      {
+        "id": "e5ef4b56-f122-432d-a5f7-62b5bf0f8404",
+        "department": "Sales",
+        "employees_managed": 49162,
+        "created_at": "2023-08-29T06:45:19.798Z",
+        "updated_at": "2023-08-29T15:00:33.022Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b0893e7b-dc9f-4c3d-9383-eba8b7a9bfe6",
+        "department": "Marketing",
+        "employees_managed": 3012,
+        "created_at": "2023-08-29T05:24:14.408Z",
+        "updated_at": "2023-08-29T11:23:23.307Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "97a50122-337f-4ad9-865d-2a5ba646b90f",
+        "department": "Finance",
+        "employees_managed": 73408,
+        "created_at": "2023-08-29T22:55:31.206Z",
+        "updated_at": "2023-08-29T12:35:16.446Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "90fd9fb9-95f0-4d9e-86fc-29b5643aa507",
+        "department": "Operations",
+        "employees_managed": 44739,
+        "created_at": "2023-08-29T19:28:34.379Z",
+        "updated_at": "2023-08-30T04:20:20.420Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a80eac0b-5cd5-43f9-aecf-ce67c768415e",
+        "department": "Human Resources",
+        "employees_managed": 32012,
+        "created_at": "2023-08-29T08:45:37.830Z",
+        "updated_at": "2023-08-29T22:06:00.745Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "438982e3-e0d4-4cb1-8de4-e1d404d71159",
+        "watch_name": "Classic Timepiece",
+        "watch_model": "WT-100",
+        "quantity": 75132,
+        "price": 64462,
+        "created_at": "2023-08-29T20:59:59.197Z",
+        "updated_at": "2023-08-30T01:57:15.242Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8fdd9dfa-d88a-47af-af56-45fbbdc1edf0",
+        "watch_name": "Sporty Chronograph",
+        "watch_model": "SC-200",
+        "quantity": 10999,
+        "price": 49990,
+        "created_at": "2023-08-29T21:32:46.316Z",
+        "updated_at": "2023-08-30T01:30:35.997Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e64619ec-d801-45bc-babe-e09cf7e8c8c5",
+        "watch_name": "Elegant Diamond",
+        "watch_model": "ED-300",
+        "quantity": 86173,
+        "price": 79495,
+        "created_at": "2023-08-29T21:53:12.633Z",
+        "updated_at": "2023-08-29T17:58:42.158Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1e476acf-4f45-4a4a-91ab-0bff36dab1a1",
+        "watch_name": "Digital Smartwatch",
+        "watch_model": "DS-400",
+        "quantity": 25492,
+        "price": 68905,
+        "created_at": "2023-08-29T18:09:33.855Z",
+        "updated_at": "2023-08-29T17:52:34.874Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c584ab78-65b2-4864-ace9-b1d28499a204",
+        "watch_name": "Luxury Gold",
+        "watch_model": "LG-500",
+        "quantity": 65475,
+        "price": 44206,
+        "created_at": "2023-08-29T17:46:12.789Z",
+        "updated_at": "2023-08-29T20:41:16.605Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "guest": [
+      {
+        "id": "48106e25-ad30-4ba4-9dbf-be7847a8b2af",
+        "visit_date": "2023-08-30T00:53:36.551Z",
+        "visit_duration": 74208,
+        "interest_level": 69435,
+        "created_at": "2023-08-29T05:11:41.461Z",
+        "updated_at": "2023-08-29T13:41:48.506Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "46353bed-754c-4b10-a641-b299a91d29e2",
+        "visit_date": "2023-08-29T17:55:03.684Z",
+        "visit_duration": 5096,
+        "interest_level": 19000,
+        "created_at": "2023-08-29T06:20:32.841Z",
+        "updated_at": "2023-08-29T10:20:56.587Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c7ec34f9-fdf4-4897-b485-a3226946181c",
+        "visit_date": "2023-08-29T13:22:41.518Z",
+        "visit_duration": 22332,
+        "interest_level": 60344,
+        "created_at": "2023-08-29T13:44:26.667Z",
+        "updated_at": "2023-08-29T06:31:33.054Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2660eb35-cb54-4952-a3f5-081a227ad4a3",
+        "visit_date": "2023-08-29T06:08:47.453Z",
+        "visit_duration": 94313,
+        "interest_level": 68702,
+        "created_at": "2023-08-29T07:05:19.562Z",
+        "updated_at": "2023-08-29T11:37:22.378Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "399eea1b-ace9-407c-ae23-ba54f6061f50",
+        "visit_date": "2023-08-29T07:19:03.892Z",
+        "visit_duration": 97143,
+        "interest_level": 86887,
+        "created_at": "2023-08-29T23:08:46.987Z",
+        "updated_at": "2023-08-29T10:40:40.160Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f54cd3b9-e91b-4dff-ace9-da2494d51e26",
+        "email": "Tara.Huels@hotmail.com",
+        "firstName": "Kelsie",
+        "lastName": "Stark",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17171840",
+        "tenantId": null
+      },
+      {
+        "reference": "cf25a241-a824-4179-b94a-e24a8905153c",
+        "email": "Queen_Terry89@yahoo.com",
+        "firstName": "Shea",
+        "lastName": "Boehm",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/535.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "af3ecf89-4bf6-4990-8467-59844221fa0e",
+        "email": "Claudie_Hansen70@yahoo.com",
+        "firstName": "Dangelo",
+        "lastName": "Bartell",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68824593",
+        "tenantId": null
+      },
+      {
+        "reference": "ec2b30fc-794a-4a23-a942-8d509ba1dda1",
+        "email": "Yasmeen_Hudson79@hotmail.com",
+        "firstName": "Malachi",
+        "lastName": "Koepp",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1234.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "73567794-16fd-415e-a8c0-d831e220640a",
+        "email": "Laurel.Pacocha@hotmail.com",
+        "firstName": "Bridgette",
+        "lastName": "Cole",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1240.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "sales_associate": [
+      {
+        "id": "26d07eec-cd02-4ef4-9a25-72e198d1518f",
+        "sales_target": 58227,
+        "sales_achieved": 46373,
+        "commission_rate": 51973,
+        "created_at": "2023-08-29T22:07:45.131Z",
+        "updated_at": "2023-08-29T09:53:05.472Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5a27072a-1746-42cf-bd80-5bd8cc14fa02",
+        "sales_target": 96392,
+        "sales_achieved": 77369,
+        "commission_rate": 49465,
+        "created_at": "2023-08-29T08:05:27.974Z",
+        "updated_at": "2023-08-30T00:39:53.341Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8bada1ca-f2ce-4619-a66a-7acca3a108d3",
+        "sales_target": 16738,
+        "sales_achieved": 14915,
+        "commission_rate": 54797,
+        "created_at": "2023-08-30T03:50:14.966Z",
+        "updated_at": "2023-08-29T15:29:55.757Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c4c66136-9397-4c18-98d0-04f06b4eb1c6",
+        "sales_target": 73138,
+        "sales_achieved": 76414,
+        "commission_rate": 39475,
+        "created_at": "2023-08-29T20:46:05.279Z",
+        "updated_at": "2023-08-29T04:54:58.540Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "89ae2883-8ac6-46f2-869f-febce3bfef7b",
+        "sales_target": 96890,
+        "sales_achieved": 42159,
+        "commission_rate": 47144,
+        "created_at": "2023-08-29T06:54:02.873Z",
+        "updated_at": "2023-08-29T07:21:27.530Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "manager": [
+      {
+        "id": "afb57ef8-d2d6-4498-82de-5c7b72f01803",
+        "department": "Sales",
+        "employees_managed": 78839,
+        "created_at": "2023-08-29T10:27:22.428Z",
+        "updated_at": "2023-08-29T10:38:17.832Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "98705189-9efb-47d1-811c-8d384c270b54",
+        "department": "Marketing",
+        "employees_managed": 90884,
+        "created_at": "2023-08-29T16:54:07.174Z",
+        "updated_at": "2023-08-29T17:43:27.430Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "605f4bea-064f-4833-9ad3-4e9a503fc2e7",
+        "department": "Finance",
+        "employees_managed": 40252,
+        "created_at": "2023-08-29T18:13:11.105Z",
+        "updated_at": "2023-08-29T06:04:42.627Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dcc42882-39a6-4261-a9e0-d80f6e9cfca1",
+        "department": "Human Resources",
+        "employees_managed": 21844,
+        "created_at": "2023-08-29T04:57:45.446Z",
+        "updated_at": "2023-08-29T23:43:36.728Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fbdbff45-09ff-48bc-8747-beac57cb75b8",
+        "department": "Operations",
+        "employees_managed": 73577,
+        "created_at": "2023-08-29T12:04:32.864Z",
+        "updated_at": "2023-08-29T11:26:10.119Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "b52477f0-1c2d-41be-8c41-0f2ee00f85a0",
+        "watch_name": "Classic Timepiece",
+        "watch_model": "WT-1001",
+        "quantity": 8510,
+        "price": 22139,
+        "created_at": "2023-08-30T03:28:39.570Z",
+        "updated_at": "2023-08-30T03:15:14.542Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6bf4933c-4f7f-47fe-ab1c-1e9fb96fbc36",
+        "watch_name": "Sporty Chronograph",
+        "watch_model": "SC-2002",
+        "quantity": 42611,
+        "price": 93645,
+        "created_at": "2023-08-29T16:15:03.565Z",
+        "updated_at": "2023-08-29T06:36:06.119Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1220a6b4-d757-4527-b087-a2c685d1e931",
+        "watch_name": "Elegant Dress Watch",
+        "watch_model": "EDW-3003",
+        "quantity": 44654,
+        "price": 27722,
+        "created_at": "2023-08-29T10:00:44.794Z",
+        "updated_at": "2023-08-29T22:20:07.306Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "de7e58b8-45ec-4b6e-a1b9-ee42b59c5467",
+        "watch_name": "Stylish Smartwatch",
+        "watch_model": "SSW-4004",
+        "quantity": 57385,
+        "price": 13038,
+        "created_at": "2023-08-29T12:13:01.145Z",
+        "updated_at": "2023-08-30T01:58:25.266Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "379e3159-cb94-40db-821c-2e327a9f9103",
+        "watch_name": "Luxury Diamond Watch",
+        "watch_model": "LDW-5005",
+        "quantity": 36905,
+        "price": 65748,
+        "created_at": "2023-08-29T22:03:59.244Z",
+        "updated_at": "2023-08-29T22:04:02.478Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "guest": [
+      {
+        "id": "270226d5-234b-45f6-81c0-7c593570af52",
+        "visit_date": "2023-08-30T00:47:00.120Z",
+        "visit_duration": 58374,
+        "interest_level": 82020,
+        "created_at": "2023-08-29T06:15:11.726Z",
+        "updated_at": "2023-08-29T06:01:39.433Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ba785d19-015b-433e-bc42-3f94b2a734a7",
+        "visit_date": "2023-08-29T16:17:20.137Z",
+        "visit_duration": 9114,
+        "interest_level": 47792,
+        "created_at": "2023-08-29T05:56:38.702Z",
+        "updated_at": "2023-08-29T17:46:30.734Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e9930e62-d5dd-444d-81cb-c6d5572b8ee4",
+        "visit_date": "2023-08-30T00:26:27.622Z",
+        "visit_duration": 36843,
+        "interest_level": 49469,
+        "created_at": "2023-08-30T00:44:28.569Z",
+        "updated_at": "2023-08-29T20:11:55.786Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "620590d5-35cf-477f-8a24-6662965d15ab",
+        "visit_date": "2023-08-30T01:36:06.925Z",
+        "visit_duration": 46201,
+        "interest_level": 85058,
+        "created_at": "2023-08-30T03:52:19.385Z",
+        "updated_at": "2023-08-29T14:34:43.117Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b27f212f-06d5-4ce0-ad5a-72d7922fe3e2",
+        "visit_date": "2023-08-29T06:06:11.866Z",
+        "visit_duration": 32218,
+        "interest_level": 97167,
+        "created_at": "2023-08-29T05:43:08.886Z",
+        "updated_at": "2023-08-29T08:22:33.224Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2dfa0ced-f606-4c26-ad1f-d02fa1574679",
+        "email": "Otho46@gmail.com",
+        "firstName": "Carson",
+        "lastName": "Dooley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/404.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2cbfb34b-b079-4d9f-a13f-9969601db4fe",
+        "email": "Efrain.Rohan17@hotmail.com",
+        "firstName": "Rosie",
+        "lastName": "Kertzmann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9500185",
+        "tenantId": null
+      },
+      {
+        "reference": "4353d6fc-e4ee-44ec-b8a6-6cc416156cda",
+        "email": "Naomie.Boehm@yahoo.com",
+        "firstName": "Corrine",
+        "lastName": "Hansen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21984610",
+        "tenantId": null
+      },
+      {
+        "reference": "b3143fd9-2220-44b9-a695-ebc4c657ce23",
+        "email": "Lilla11@yahoo.com",
+        "firstName": "Jules",
+        "lastName": "Boyer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52610581",
+        "tenantId": null
+      },
+      {
+        "reference": "297e8f67-d4c1-4c3f-9291-9ba542140ba0",
+        "email": "Lyla_Haley29@hotmail.com",
+        "firstName": "Serena",
+        "lastName": "Mitchell",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12796410",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "sales_associate": [
+      {
+        "id": "98729f49-5032-4b35-8f2b-26dc69d5c3e7",
+        "sales_target": 41889,
+        "sales_achieved": 59610,
+        "commission_rate": 49422,
+        "created_at": "2023-08-29T22:54:11.074Z",
+        "updated_at": "2023-08-29T09:04:27.968Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1828e8c5-260c-44ff-a51a-9d11efb16173",
+        "sales_target": 35517,
+        "sales_achieved": 82181,
+        "commission_rate": 8892,
+        "created_at": "2023-08-29T05:33:22.307Z",
+        "updated_at": "2023-08-30T03:14:06.667Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c06b3f0-f376-4716-966c-97bb1c6e28cd",
+        "sales_target": 62732,
+        "sales_achieved": 70998,
+        "commission_rate": 39242,
+        "created_at": "2023-08-29T10:17:52.716Z",
+        "updated_at": "2023-08-29T18:00:45.582Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b2332b86-f3e9-4fea-9f59-1ae07b8fa528",
+        "sales_target": 15426,
+        "sales_achieved": 55136,
+        "commission_rate": 28636,
+        "created_at": "2023-08-30T00:39:02.178Z",
+        "updated_at": "2023-08-29T19:38:49.184Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4b328f2c-d499-4bf3-a75d-bd9e69477e84",
+        "sales_target": 56858,
+        "sales_achieved": 55752,
+        "commission_rate": 58960,
+        "created_at": "2023-08-30T03:12:50.868Z",
+        "updated_at": "2023-08-29T15:19:48.224Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "manager": [
+      {
+        "id": "ed4406fb-f07b-4562-b1eb-7e96cd14b036",
+        "department": "Marketing",
+        "employees_managed": 61863,
+        "created_at": "2023-08-30T00:14:03.449Z",
+        "updated_at": "2023-08-29T07:32:38.258Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "04dbb86b-0389-44c3-90d1-824184abd9c8",
+        "department": "Operations",
+        "employees_managed": 85188,
+        "created_at": "2023-08-30T02:01:00.295Z",
+        "updated_at": "2023-08-29T11:46:45.625Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cc622968-7acf-4715-baae-9839c29f3a10",
+        "department": "Human Resources",
+        "employees_managed": 4932,
+        "created_at": "2023-08-30T02:30:59.836Z",
+        "updated_at": "2023-08-29T20:29:48.494Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f12c22d0-efca-4a89-bc57-684e434a02f4",
+        "department": "Finance",
+        "employees_managed": 88356,
+        "created_at": "2023-08-30T04:04:34.605Z",
+        "updated_at": "2023-08-29T11:20:52.907Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fe2ffb18-c0aa-43fb-9f89-d541c2f740c3",
+        "department": "Product Development",
+        "employees_managed": 63824,
+        "created_at": "2023-08-29T16:33:22.503Z",
+        "updated_at": "2023-08-29T07:58:08.217Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "119dc265-1de2-4dec-a399-35070795c318",
+        "watch_name": "Classic Timepiece",
+        "watch_model": "ABC123",
+        "quantity": 64101,
+        "price": 21529,
+        "created_at": "2023-08-30T03:11:20.424Z",
+        "updated_at": "2023-08-29T22:46:01.147Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "31c50c6e-7d37-4986-98f6-f97757f4d0d1",
+        "watch_name": "Sporty Chronograph",
+        "watch_model": "XYZ456",
+        "quantity": 14649,
+        "price": 10461,
+        "created_at": "2023-08-29T18:37:14.875Z",
+        "updated_at": "2023-08-29T07:17:33.615Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6e40e9de-2d36-4330-9df8-85a63ecc9cd9",
+        "watch_name": "Elegant Dress Watch",
+        "watch_model": "123DEF",
+        "quantity": 93160,
+        "price": 354,
+        "created_at": "2023-08-30T01:48:47.407Z",
+        "updated_at": "2023-08-29T12:49:22.071Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a62882cd-bf6d-4643-af9d-3cf21818a83f",
+        "watch_name": "Luxury Diamond Watch",
+        "watch_model": "456GHI",
+        "quantity": 41056,
+        "price": 16729,
+        "created_at": "2023-08-29T08:23:47.697Z",
+        "updated_at": "2023-08-29T10:38:41.652Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5b247e17-de7b-411f-bb93-eb4d84372cdd",
+        "watch_name": "Smart Fitness Tracker",
+        "watch_model": "JKL789",
+        "quantity": 1845,
+        "price": 41869,
+        "created_at": "2023-08-29T21:10:04.430Z",
+        "updated_at": "2023-08-29T12:44:17.023Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "guest": [
+      {
+        "id": "dafaaa6a-244c-48b4-b0ec-839b5533303b",
+        "visit_date": "2023-08-29T19:45:26.989Z",
+        "visit_duration": 13292,
+        "interest_level": 74162,
+        "created_at": "2023-08-29T19:20:37.725Z",
+        "updated_at": "2023-08-29T17:54:47.215Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1794713d-c60f-46d1-9032-5af2cf780c91",
+        "visit_date": "2023-08-29T09:13:29.918Z",
+        "visit_duration": 20303,
+        "interest_level": 6749,
+        "created_at": "2023-08-29T23:23:29.407Z",
+        "updated_at": "2023-08-29T12:08:55.247Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6bc39b75-8542-4d34-bdd7-5f604c3143da",
+        "visit_date": "2023-08-29T21:27:15.427Z",
+        "visit_duration": 11951,
+        "interest_level": 43962,
+        "created_at": "2023-08-29T20:07:19.421Z",
+        "updated_at": "2023-08-29T18:00:55.020Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dc6b0ad1-4479-4a0b-8e39-8a8daed3a2b5",
+        "visit_date": "2023-08-29T04:48:59.723Z",
+        "visit_duration": 62049,
+        "interest_level": 8770,
+        "created_at": "2023-08-29T18:49:13.230Z",
+        "updated_at": "2023-08-29T05:02:00.331Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a0a6c273-d772-438e-99e5-c1b9ec9694f6",
+        "visit_date": "2023-08-30T02:13:30.141Z",
+        "visit_duration": 23343,
+        "interest_level": 20556,
+        "created_at": "2023-08-29T13:11:13.826Z",
+        "updated_at": "2023-08-29T21:30:28.999Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4a372974-8178-48ea-9ac4-e96d00b14620",
+        "email": "Vilma.Robel@hotmail.com",
+        "firstName": "Jammie",
+        "lastName": "Hegmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/345.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "68e7ea2f-1d29-4a7d-9e05-1cb7afe159eb",
+        "email": "Bertram.Adams-Glover@hotmail.com",
+        "firstName": "Daija",
+        "lastName": "Hermiston",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70298129",
+        "tenantId": null
+      },
+      {
+        "reference": "500c7b74-ddd5-4b1c-949d-6031e8e9c974",
+        "email": "Bernita_Wehner83@gmail.com",
+        "firstName": "Antwan",
+        "lastName": "Schulist",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/966.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4e1c733e-7425-4129-a049-9f0bf8e57b9c",
+        "email": "Harry.Kutch@yahoo.com",
+        "firstName": "Emerson",
+        "lastName": "Ullrich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1802459",
+        "tenantId": null
+      },
+      {
+        "reference": "4543680b-a66a-4f6e-94e9-54e58da9abf1",
+        "email": "Ansley_Schmeler25@gmail.com",
+        "firstName": "Chloe",
+        "lastName": "Steuber",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/192.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "sales_associate": [
+      {
+        "id": "31bb4f46-07dd-43f6-b65a-215d3f67589d",
+        "sales_target": 13726,
+        "sales_achieved": 83485,
+        "commission_rate": 87927,
+        "created_at": "2023-08-29T21:14:45.448Z",
+        "updated_at": "2023-08-29T11:46:44.946Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5559a703-8194-4841-bcbf-c1a69608e888",
+        "sales_target": 7955,
+        "sales_achieved": 67348,
+        "commission_rate": 88098,
+        "created_at": "2023-08-29T13:06:22.161Z",
+        "updated_at": "2023-08-29T12:26:06.024Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ad8a7303-87dc-4364-a0de-aa867330e885",
+        "sales_target": 33236,
+        "sales_achieved": 4560,
+        "commission_rate": 87392,
+        "created_at": "2023-08-30T00:27:09.810Z",
+        "updated_at": "2023-08-29T09:38:37.006Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1d1c94cc-b8c1-4daf-8801-96c66215984f",
+        "sales_target": 18743,
+        "sales_achieved": 93825,
+        "commission_rate": 53060,
+        "created_at": "2023-08-29T15:50:50.957Z",
+        "updated_at": "2023-08-29T21:36:54.772Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fa8a3200-504a-454e-af04-758b641dcf49",
+        "sales_target": 46827,
+        "sales_achieved": 94006,
+        "commission_rate": 52418,
+        "created_at": "2023-08-30T02:33:49.219Z",
+        "updated_at": "2023-08-29T22:23:53.414Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "manager": [
+      {
+        "id": "4bac8b6b-baa7-48ae-bf37-3f5b5379a5fb",
+        "department": "Sales",
+        "employees_managed": 95951,
+        "created_at": "2023-08-30T01:24:06.575Z",
+        "updated_at": "2023-08-29T06:35:17.345Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "39ec3e97-4137-4d80-836a-b9982af1cd5a",
+        "department": "Marketing",
+        "employees_managed": 76512,
+        "created_at": "2023-08-29T14:39:37.086Z",
+        "updated_at": "2023-08-29T15:17:12.764Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a9640042-576d-4865-88fc-1a9b18e537a3",
+        "department": "Finance",
+        "employees_managed": 90301,
+        "created_at": "2023-08-29T08:21:14.388Z",
+        "updated_at": "2023-08-29T09:37:17.855Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3ed62f0b-4aa8-4b47-8a33-6fa2969ef16a",
+        "department": "Human Resources",
+        "employees_managed": 65052,
+        "created_at": "2023-08-29T04:49:49.254Z",
+        "updated_at": "2023-08-29T10:46:13.013Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "70e19a6f-18d1-4b70-b876-6862ad93c9fc",
+        "department": "Operations",
+        "employees_managed": 6538,
+        "created_at": "2023-08-29T04:38:39.920Z",
+        "updated_at": "2023-08-29T17:03:13.455Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "792344be-bd44-4aa4-930c-bf979aec219e",
+        "watch_name": "Classic Timepiece",
+        "watch_model": "W1001",
+        "quantity": 78746,
+        "price": 678,
+        "created_at": "2023-08-30T03:00:52.214Z",
+        "updated_at": "2023-08-29T11:46:06.783Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2033bacb-74b6-4fb5-9193-3e473c5b1920",
+        "watch_name": "Sporty Chronograph",
+        "watch_model": "S2002",
+        "quantity": 20643,
+        "price": 68759,
+        "created_at": "2023-08-29T16:10:26.287Z",
+        "updated_at": "2023-08-30T00:25:22.081Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "16dad80a-8119-40a3-9861-64d375c4eb69",
+        "watch_name": "Elegant Dress Watch",
+        "watch_model": "E3003",
+        "quantity": 36884,
+        "price": 89508,
+        "created_at": "2023-08-29T20:01:24.064Z",
+        "updated_at": "2023-08-30T01:02:57.141Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8fd9d398-0b3e-48e0-98e3-dc1612856df7",
+        "watch_name": "Smart Fitness Tracker",
+        "watch_model": "F4004",
+        "quantity": 74014,
+        "price": 40407,
+        "created_at": "2023-08-29T05:09:26.640Z",
+        "updated_at": "2023-08-29T11:23:50.553Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7e35ef00-48fd-4956-922a-60a628a2f058",
+        "watch_name": "Luxury Diamond Watch",
+        "watch_model": "L5005",
+        "quantity": 85762,
+        "price": 60628,
+        "created_at": "2023-08-29T04:57:53.640Z",
+        "updated_at": "2023-08-30T00:01:54.253Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "guest": [
+      {
+        "id": "d0257cf3-223b-431e-87b6-071267e4303f",
+        "visit_date": "2023-08-29T14:45:14.693Z",
+        "visit_duration": 80712,
+        "interest_level": 29356,
+        "created_at": "2023-08-29T18:26:03.381Z",
+        "updated_at": "2023-08-29T14:03:39.147Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c80f414-05a1-463f-8d22-90aca0735d44",
+        "visit_date": "2023-08-30T03:52:23.471Z",
+        "visit_duration": 28868,
+        "interest_level": 83875,
+        "created_at": "2023-08-29T07:20:02.953Z",
+        "updated_at": "2023-08-29T15:31:21.898Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8dd29f2e-a9e7-4c3e-bd71-c88d65bf8a56",
+        "visit_date": "2023-08-29T13:20:12.106Z",
+        "visit_duration": 73797,
+        "interest_level": 55309,
+        "created_at": "2023-08-29T18:53:40.514Z",
+        "updated_at": "2023-08-29T11:33:40.002Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "479302e7-9bc0-4abf-86e3-3268bddb0713",
+        "visit_date": "2023-08-29T16:33:06.063Z",
+        "visit_duration": 55500,
+        "interest_level": 67849,
+        "created_at": "2023-08-29T19:13:21.615Z",
+        "updated_at": "2023-08-29T18:49:16.702Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "12c1f32b-545f-4148-96ec-56489ac3e17d",
+        "visit_date": "2023-08-29T12:26:32.407Z",
+        "visit_duration": 94016,
+        "interest_level": 52916,
+        "created_at": "2023-08-29T13:10:30.448Z",
+        "updated_at": "2023-08-30T03:45:04.116Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "efc90435-c8a9-4723-88f7-8491d27925f0",
+        "email": "Melisa66@gmail.com",
+        "firstName": "Jeromy",
+        "lastName": "Konopelski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58122641",
+        "tenantId": null
+      },
+      {
+        "reference": "dabcc84b-9014-4cff-8b2c-ffeb0bbe2861",
+        "email": "Isac_Koss@gmail.com",
+        "firstName": "Cali",
+        "lastName": "Parisian",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/93351255",
+        "tenantId": null
+      },
+      {
+        "reference": "de168f46-8ea5-4b92-81dd-40a6205d380c",
+        "email": "Vivianne0@hotmail.com",
+        "firstName": "Imani",
+        "lastName": "Schiller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/568.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "79e4de51-45f3-4eea-a8ff-9be9ad3742a3",
+        "email": "Joshuah50@hotmail.com",
+        "firstName": "Brent",
+        "lastName": "Glover",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/659.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a233ad66-de04-4ef2-960b-0a8d78f6f152",
+        "email": "Mohamed.Deckow-Prosacco@hotmail.com",
+        "firstName": "Mazie",
+        "lastName": "Kunde",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22178398",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "sales_associate": [
+      {
+        "id": "1b9cd65a-a5fc-4acd-b44d-a607d3948612",
+        "sales_target": 63353,
+        "sales_achieved": 56833,
+        "commission_rate": 36696,
+        "created_at": "2023-08-29T20:50:56.321Z",
+        "updated_at": "2023-08-29T07:50:01.671Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8049ff5a-2600-42df-9952-8b21a1e214f8",
+        "sales_target": 53882,
+        "sales_achieved": 94399,
+        "commission_rate": 38545,
+        "created_at": "2023-08-29T15:54:42.099Z",
+        "updated_at": "2023-08-30T04:00:49.031Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "439c48fd-0d1d-4ced-bbe6-11c9356e042c",
+        "sales_target": 53856,
+        "sales_achieved": 31824,
+        "commission_rate": 82453,
+        "created_at": "2023-08-29T20:05:08.114Z",
+        "updated_at": "2023-08-30T00:40:00.939Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "14088f77-499e-45dc-9ae4-9761d81813b9",
+        "sales_target": 86846,
+        "sales_achieved": 4511,
+        "commission_rate": 26840,
+        "created_at": "2023-08-29T15:41:58.052Z",
+        "updated_at": "2023-08-29T08:43:44.962Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "db0d8c1a-17ee-463f-9a3d-e3502556606e",
+        "sales_target": 42298,
+        "sales_achieved": 89993,
+        "commission_rate": 52904,
+        "created_at": "2023-08-29T12:20:23.003Z",
+        "updated_at": "2023-08-29T18:35:02.197Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "manager": [
+      {
+        "id": "6771834b-4dfb-4e85-9ed4-dd1cc75b3a87",
+        "department": "Sales",
+        "employees_managed": 13934,
+        "created_at": "2023-08-30T02:09:14.707Z",
+        "updated_at": "2023-08-30T01:25:51.226Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bcd03530-2cb5-46e3-849f-6af679fd21e4",
+        "department": "Marketing",
+        "employees_managed": 47271,
+        "created_at": "2023-08-30T01:45:34.669Z",
+        "updated_at": "2023-08-29T06:41:41.407Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3cbc1d5a-eb4a-42f8-81c5-4b573ba47768",
+        "department": "Finance",
+        "employees_managed": 2977,
+        "created_at": "2023-08-29T13:58:15.503Z",
+        "updated_at": "2023-08-29T16:40:02.339Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6cc352d2-11ee-40db-b17b-40c16e1e694a",
+        "department": "Operations",
+        "employees_managed": 54300,
+        "created_at": "2023-08-29T18:02:37.571Z",
+        "updated_at": "2023-08-29T20:59:11.089Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7eda2f1b-02e4-40bf-84b2-30cbf008037e",
+        "department": "Human Resources",
+        "employees_managed": 45394,
+        "created_at": "2023-08-30T03:59:46.229Z",
+        "updated_at": "2023-08-29T13:58:54.410Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "57957eca-52a4-49dd-b581-3d2fc4ae77cd",
+        "watch_name": "Classic Timepiece",
+        "watch_model": "M1234",
+        "quantity": 36418,
+        "price": 60017,
+        "created_at": "2023-08-29T13:35:55.431Z",
+        "updated_at": "2023-08-29T16:07:41.312Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d7270d9e-2edf-4fad-9de9-1e44d8a1db78",
+        "watch_name": "Sport Chronograph",
+        "watch_model": "S5678",
+        "quantity": 34529,
+        "price": 21297,
+        "created_at": "2023-08-29T16:08:08.967Z",
+        "updated_at": "2023-08-29T08:03:30.755Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "635b1839-843e-4c2e-b54f-d8ccba9aae48",
+        "watch_name": "Fashionable Quartz",
+        "watch_model": "F9012",
+        "quantity": 99787,
+        "price": 91825,
+        "created_at": "2023-08-29T15:32:49.357Z",
+        "updated_at": "2023-08-30T02:25:12.521Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f7fd8b5b-2723-4d76-a80a-d1b60d18d63f",
+        "watch_name": "Luxury Automatic",
+        "watch_model": "L3456",
+        "quantity": 500,
+        "price": 85054,
+        "created_at": "2023-08-30T01:41:30.143Z",
+        "updated_at": "2023-08-29T16:34:20.500Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "03cde115-3702-4479-916a-53b464fa2ab2",
+        "watch_name": "Digital Smartwatch",
+        "watch_model": "D7890",
+        "quantity": 84012,
+        "price": 81296,
+        "created_at": "2023-08-29T18:24:15.664Z",
+        "updated_at": "2023-08-29T06:49:12.280Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "guest": [
+      {
+        "id": "42446440-1e77-4e2b-bbc2-143e58f6eb1a",
+        "visit_date": "2023-08-29T09:43:04.782Z",
+        "visit_duration": 90947,
+        "interest_level": 65601,
+        "created_at": "2023-08-30T01:53:04.967Z",
+        "updated_at": "2023-08-29T21:51:27.257Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3c10486c-9c13-4c26-9a72-009d5e3ba536",
+        "visit_date": "2023-08-29T20:04:30.561Z",
+        "visit_duration": 30919,
+        "interest_level": 47402,
+        "created_at": "2023-08-29T08:47:29.279Z",
+        "updated_at": "2023-08-29T20:19:35.676Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d324d49c-d667-49c2-9f5d-2950ebcaa708",
+        "visit_date": "2023-08-29T10:30:14.557Z",
+        "visit_duration": 5850,
+        "interest_level": 66953,
+        "created_at": "2023-08-29T17:38:01.933Z",
+        "updated_at": "2023-08-29T12:45:05.202Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "af4bc2b1-2266-40d2-b321-46770915f880",
+        "visit_date": "2023-08-29T18:52:20.887Z",
+        "visit_duration": 3288,
+        "interest_level": 95224,
+        "created_at": "2023-08-29T22:06:50.455Z",
+        "updated_at": "2023-08-30T00:22:57.867Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9894b839-d90e-467e-a2aa-f2d7e1df633d",
+        "visit_date": "2023-08-29T08:14:45.531Z",
+        "visit_duration": 4719,
+        "interest_level": 75831,
+        "created_at": "2023-08-29T10:52:34.665Z",
+        "updated_at": "2023-08-29T08:49:24.799Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f2505570-287c-47bf-8315-06ced0552cce",
+        "email": "Abdiel.Klein@yahoo.com",
+        "firstName": "Jeanie",
+        "lastName": "Friesen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/143.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c4e2d6dc-a9a8-43e1-b859-30bec5282577",
+        "email": "Lizeth.Trantow@hotmail.com",
+        "firstName": "Koby",
+        "lastName": "Predovic",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2554655",
+        "tenantId": null
+      },
+      {
+        "reference": "361a3f12-2000-438a-9d2c-3cf82e0849df",
+        "email": "Asha_Orn@yahoo.com",
+        "firstName": "Elmore",
+        "lastName": "Champlin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/94460970",
+        "tenantId": null
+      },
+      {
+        "reference": "0af555f4-7476-47c9-80ea-4ac51abfd0e5",
+        "email": "Kathlyn_Reynolds@gmail.com",
+        "firstName": "Esperanza",
+        "lastName": "Jast",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65089477",
+        "tenantId": null
+      },
+      {
+        "reference": "36f76780-6cd2-4a20-a95f-f54c63b6e345",
+        "email": "Werner99@yahoo.com",
+        "firstName": "Clyde",
+        "lastName": "Abbott",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34157452",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "sales_associate": [
+      {
+        "id": "6aa45ad2-b15a-47ed-ada0-58f1306c6813",
+        "sales_target": 71752,
+        "sales_achieved": 79161,
+        "commission_rate": 67278,
+        "created_at": "2023-08-29T11:12:58.165Z",
+        "updated_at": "2023-08-29T09:56:37.715Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f113a39e-ed83-4c9c-babc-229bfa7c04ec",
+        "sales_target": 21976,
+        "sales_achieved": 43024,
+        "commission_rate": 24024,
+        "created_at": "2023-08-29T22:14:13.986Z",
+        "updated_at": "2023-08-29T11:54:32.298Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "98a67490-216e-4ada-b4aa-d4beb7198c03",
+        "sales_target": 47026,
+        "sales_achieved": 92279,
+        "commission_rate": 86524,
+        "created_at": "2023-08-29T15:06:15.613Z",
+        "updated_at": "2023-08-29T18:10:01.321Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8b631ed6-3b57-4548-8096-f9ac4bbf545d",
+        "sales_target": 53293,
+        "sales_achieved": 26063,
+        "commission_rate": 91043,
+        "created_at": "2023-08-30T00:23:47.413Z",
+        "updated_at": "2023-08-29T16:58:10.793Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0292fb22-e976-432b-ace6-bdfd2ff21994",
+        "sales_target": 26790,
+        "sales_achieved": 18561,
+        "commission_rate": 58044,
+        "created_at": "2023-08-29T08:08:03.563Z",
+        "updated_at": "2023-08-29T07:38:43.296Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "manager": [
+      {
+        "id": "6ff2568e-4a9e-422b-80c4-8dad4ef311d0",
+        "department": "Sales",
+        "employees_managed": 55005,
+        "created_at": "2023-08-29T18:27:02.752Z",
+        "updated_at": "2023-08-29T10:14:14.027Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4016ae92-cea4-417a-9502-ca00d46a9b8d",
+        "department": "Marketing",
+        "employees_managed": 57932,
+        "created_at": "2023-08-29T08:12:45.927Z",
+        "updated_at": "2023-08-29T14:37:11.849Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fbd9a014-36ee-4c60-b697-d6b9d0fa098c",
+        "department": "Finance",
+        "employees_managed": 96350,
+        "created_at": "2023-08-29T19:38:21.872Z",
+        "updated_at": "2023-08-29T21:23:43.452Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aaa82818-8829-4a6f-81f6-7e0d242c8b99",
+        "department": "Operations",
+        "employees_managed": 5404,
+        "created_at": "2023-08-29T05:27:00.744Z",
+        "updated_at": "2023-08-29T22:21:15.592Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a3b9bec6-3ab8-4b58-ab38-b3fe983c2f95",
+        "department": "Human Resources",
+        "employees_managed": 99316,
+        "created_at": "2023-08-29T09:50:28.354Z",
+        "updated_at": "2023-08-29T10:25:40.413Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "6798c209-06a8-4b82-9336-21689cdafefd",
+        "watch_name": "Classic Timepiece",
+        "watch_model": "WT-100",
+        "quantity": 23566,
+        "price": 46218,
+        "created_at": "2023-08-29T18:09:14.911Z",
+        "updated_at": "2023-08-29T07:33:53.779Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "540b0e2e-b022-4de7-b0fe-203df1d436af",
+        "watch_name": "Sporty Chronograph",
+        "watch_model": "SC-200",
+        "quantity": 87167,
+        "price": 21825,
+        "created_at": "2023-08-29T10:02:54.845Z",
+        "updated_at": "2023-08-29T20:29:27.992Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "eaa50e92-c857-41a0-b946-f79163698d81",
+        "watch_name": "Elegant Dress Watch",
+        "watch_model": "EDW-300",
+        "quantity": 96001,
+        "price": 97686,
+        "created_at": "2023-08-29T16:38:51.424Z",
+        "updated_at": "2023-08-29T23:29:24.639Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2d124d62-c243-40ce-b036-982e6d75decc",
+        "watch_name": "Modern Smartwatch",
+        "watch_model": "MSW-400",
+        "quantity": 35222,
+        "price": 36474,
+        "created_at": "2023-08-29T05:02:25.239Z",
+        "updated_at": "2023-08-29T17:36:19.506Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ed918e74-3695-4dcd-8bf3-7fa09b2f583a",
+        "watch_name": "Luxury Diamond Watch",
+        "watch_model": "LDW-500",
+        "quantity": 97574,
+        "price": 67063,
+        "created_at": "2023-08-29T19:00:26.804Z",
+        "updated_at": "2023-08-29T12:40:23.659Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "guest": [
+      {
+        "id": "a0fa0170-7a5f-4f1b-8ea2-faf3adf0803a",
+        "visit_date": "2023-08-29T10:24:59.130Z",
+        "visit_duration": 85167,
+        "interest_level": 40828,
+        "created_at": "2023-08-30T04:04:04.063Z",
+        "updated_at": "2023-08-29T05:52:43.066Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6e91d7ce-4dfb-4b96-a789-da5e713b9dc5",
+        "visit_date": "2023-08-29T07:20:36.942Z",
+        "visit_duration": 33467,
+        "interest_level": 81278,
+        "created_at": "2023-08-29T06:53:46.108Z",
+        "updated_at": "2023-08-29T06:35:11.704Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cfbbc3cb-25fb-4f6e-8b2e-5b3176e5845e",
+        "visit_date": "2023-08-29T18:11:39.992Z",
+        "visit_duration": 13652,
+        "interest_level": 4962,
+        "created_at": "2023-08-29T05:45:28.903Z",
+        "updated_at": "2023-08-29T21:21:54.524Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c3454e6-1b8e-4a95-aa84-29521e66f75b",
+        "visit_date": "2023-08-29T22:49:35.275Z",
+        "visit_duration": 56708,
+        "interest_level": 34671,
+        "created_at": "2023-08-29T21:33:30.547Z",
+        "updated_at": "2023-08-29T16:02:52.917Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ad1f1891-ff06-497e-9694-97b610c3b839",
+        "visit_date": "2023-08-29T15:34:33.678Z",
+        "visit_duration": 7009,
+        "interest_level": 66228,
+        "created_at": "2023-08-29T05:19:32.121Z",
+        "updated_at": "2023-08-30T03:13:00.486Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "25ab5463-1ca2-499f-a73c-d2b8041c0743",
+        "email": "Jayce.Von@gmail.com",
+        "firstName": "Dino",
+        "lastName": "Schmitt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/870.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "32d168a5-1e1c-4842-b497-734018c51423",
+        "email": "Pauline.Oberbrunner19@yahoo.com",
+        "firstName": "Lulu",
+        "lastName": "Senger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/94.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "03f938f6-eed6-41d4-aab5-d502fbc2d0c3",
+        "email": "Otha.Stracke82@gmail.com",
+        "firstName": "Abdiel",
+        "lastName": "Gulgowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80713615",
+        "tenantId": null
+      },
+      {
+        "reference": "901f3b40-5db1-4c39-91b0-826b0308eaaf",
+        "email": "Tania82@gmail.com",
+        "firstName": "Lamar",
+        "lastName": "Lindgren",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3153355",
+        "tenantId": null
+      },
+      {
+        "reference": "d0e5eb35-ef27-49b7-805b-558cd6999bd8",
+        "email": "Peter.Windler71@gmail.com",
+        "firstName": "Shanon",
+        "lastName": "Brown",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7294977",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "sales_associate": [
+      {
+        "id": "4da78ff8-f3f9-4068-a0f0-85b4b874854d",
+        "sales_target": 7731,
+        "sales_achieved": 20360,
+        "commission_rate": 15644,
+        "created_at": "2023-08-29T22:46:25.920Z",
+        "updated_at": "2023-08-29T21:59:55.191Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "29ddb8a5-c96e-42a9-a209-69ba7623764d",
+        "sales_target": 24114,
+        "sales_achieved": 21738,
+        "commission_rate": 40639,
+        "created_at": "2023-08-29T13:35:15.948Z",
+        "updated_at": "2023-08-29T12:34:48.772Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c6bc3af9-6ae0-4d37-b5db-78a52c390340",
+        "sales_target": 20435,
+        "sales_achieved": 32514,
+        "commission_rate": 71510,
+        "created_at": "2023-08-30T03:43:15.719Z",
+        "updated_at": "2023-08-29T19:13:06.232Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "133b086d-1b36-4488-9141-f4a7af58e672",
+        "sales_target": 47839,
+        "sales_achieved": 88284,
+        "commission_rate": 79005,
+        "created_at": "2023-08-29T08:40:18.147Z",
+        "updated_at": "2023-08-30T01:15:36.701Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4a23405c-0793-4103-9df0-905aec0e8b90",
+        "sales_target": 51939,
+        "sales_achieved": 17079,
+        "commission_rate": 30862,
+        "created_at": "2023-08-29T22:33:09.324Z",
+        "updated_at": "2023-08-29T16:57:25.859Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "manager": [
+      {
+        "id": "48bab6bd-91cb-4830-92b7-b08fdae80f6d",
+        "department": "Sales",
+        "employees_managed": 84553,
+        "created_at": "2023-08-29T10:05:26.590Z",
+        "updated_at": "2023-08-29T16:55:58.772Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "44d37ded-3193-46f6-819d-617836f0ff04",
+        "department": "Marketing",
+        "employees_managed": 59201,
+        "created_at": "2023-08-29T21:22:59.665Z",
+        "updated_at": "2023-08-29T23:38:32.121Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "26dec2c6-0de8-4f3e-bb26-125af8bef58c",
+        "department": "Finance",
+        "employees_managed": 95931,
+        "created_at": "2023-08-29T19:34:11.425Z",
+        "updated_at": "2023-08-29T12:19:42.203Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "47c04276-ec92-40e1-993a-9d3a9dc3db60",
+        "department": "Human Resources",
+        "employees_managed": 88389,
+        "created_at": "2023-08-29T23:01:20.339Z",
+        "updated_at": "2023-08-29T17:37:36.832Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "51b55c78-25e5-4ca0-951a-8b4e41b4595f",
+        "department": "Operations",
+        "employees_managed": 2565,
+        "created_at": "2023-08-29T20:57:45.087Z",
+        "updated_at": "2023-08-29T06:26:19.854Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "b946230c-8f84-4f97-b603-6ccd5042e241",
+        "watch_name": "Classic Timepiece",
+        "watch_model": "W1",
+        "quantity": 29480,
+        "price": 95006,
+        "created_at": "2023-08-30T00:19:47.202Z",
+        "updated_at": "2023-08-29T18:49:22.073Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "daf0842e-485e-4695-8d1b-f9b1e9a98fad",
+        "watch_name": "Sporty Chronograph",
+        "watch_model": "S2",
+        "quantity": 26895,
+        "price": 78087,
+        "created_at": "2023-08-30T04:22:39.777Z",
+        "updated_at": "2023-08-29T11:44:51.849Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c30fad7b-2b8e-46a0-919d-3d8e33098ad0",
+        "watch_name": "Elegant Dress Watch",
+        "watch_model": "E3",
+        "quantity": 16043,
+        "price": 99725,
+        "created_at": "2023-08-30T03:21:29.279Z",
+        "updated_at": "2023-08-30T03:36:04.040Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1dbb59d4-60f4-4c13-a1b0-2eeac4c06c3c",
+        "watch_name": "Luxury Diamond Watch",
+        "watch_model": "L4",
+        "quantity": 58625,
+        "price": 99934,
+        "created_at": "2023-08-29T07:41:22.814Z",
+        "updated_at": "2023-08-29T20:22:54.962Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c9ef709f-7f76-496b-b5a7-e11d55a7574b",
+        "watch_name": "Smart Fitness Tracker",
+        "watch_model": "F5",
+        "quantity": 57567,
+        "price": 40181,
+        "created_at": "2023-08-29T14:36:07.163Z",
+        "updated_at": "2023-08-29T04:42:24.133Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "guest": [
+      {
+        "id": "7c6d10f2-5379-4477-acc2-479fcbab7fd8",
+        "visit_date": "2023-08-29T17:56:40.075Z",
+        "visit_duration": 6247,
+        "interest_level": 97979,
+        "created_at": "2023-08-29T14:03:53.061Z",
+        "updated_at": "2023-08-29T07:18:47.818Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "230e75d6-d22a-445f-8207-cc5786ae3158",
+        "visit_date": "2023-08-30T04:10:27.694Z",
+        "visit_duration": 8900,
+        "interest_level": 25735,
+        "created_at": "2023-08-29T08:58:56.662Z",
+        "updated_at": "2023-08-29T19:16:24.011Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c6dacbcb-3bed-495f-a7ce-c312cc896903",
+        "visit_date": "2023-08-29T20:25:07.627Z",
+        "visit_duration": 49546,
+        "interest_level": 59275,
+        "created_at": "2023-08-29T08:20:09.409Z",
+        "updated_at": "2023-08-29T12:12:41.293Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "25d92fe8-d7d6-4a83-b474-fa3b1cfff3a0",
+        "visit_date": "2023-08-29T16:05:25.254Z",
+        "visit_duration": 679,
+        "interest_level": 75091,
+        "created_at": "2023-08-30T01:55:13.544Z",
+        "updated_at": "2023-08-29T06:45:03.863Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "421626d1-863e-4e5f-8fa5-fb4373524cba",
+        "visit_date": "2023-08-29T22:27:15.939Z",
+        "visit_duration": 94522,
+        "interest_level": 42407,
+        "created_at": "2023-08-29T12:29:59.246Z",
+        "updated_at": "2023-08-29T11:03:33.287Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5d802c2e-f63a-46d4-a88f-97c6a418ec06",
+        "email": "Victor22@yahoo.com",
+        "firstName": "Mckenna",
+        "lastName": "Walsh",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/786.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8d08e813-fb71-4417-8ddd-0827d2cd141e",
+        "email": "Hettie_Nitzsche@gmail.com",
+        "firstName": "Hal",
+        "lastName": "Hettinger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/81882894",
+        "tenantId": null
+      },
+      {
+        "reference": "646aef68-522b-4c0d-94f0-6a0e53e25066",
+        "email": "Conor56@yahoo.com",
+        "firstName": "Norwood",
+        "lastName": "Bechtelar",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/363.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cae5027e-4e9c-45c9-a8ef-be227156cc3d",
+        "email": "Dorthy98@gmail.com",
+        "firstName": "Lora",
+        "lastName": "Jacobi",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/725.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "976e0678-5193-46ec-9160-abdbd965e064",
+        "email": "Mozelle98@yahoo.com",
+        "firstName": "Jarrod",
+        "lastName": "Kunze",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/583.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
